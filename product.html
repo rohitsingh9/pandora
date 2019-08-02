@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish - ig@harrnish">
+      <link rel="icon" href="yourIconUrl" type="image/gif" sizes="16x16">
+      <title>Products - pandora</title>
+
+      <!-- external stylesheet -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- bootstrapcdn -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- Favicon -->
+    <link rel="icon" href="images\ico.png">
+
+      <!-- icon pack -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- google font -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+      <!-- jquery cdn -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <!-- tweenmax (greensock) cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
+      <script>
+            addEventListener("load", function () {
+                  setTimeout(hideURLbar, 0);
+            }, false);
+
+            function hideURLbar() {
+                  window.scrollTo(0, 1);
+            }
+      </script>
+      <!-- //Meta-Tags -->
+      <!-- Index-Page-CSS -->
+      <link rel="stylesheet" href="products/css/style.css" type="text/css" media="all">
+      <!-- //Custom-Stylesheet-Links -->
+</head>
+<body>
+      <div class="contact-container">
+
+            <!-- NAVIGATION STARTS -->
+
+            <div class="nav">
+                  <div class="menu-open">
+                        <ion-icon name="menu"></ion-icon>
+                  </div>
+                  <div class="brand">
+                        <span><a href="index.html">pandora</a></span>
+                  </div>
+                  <div class="cart">
+                        <div class="wthreecartaits wthreecartaits2 cart cart box_1">
+                              <form action="#" method="post" class="last">
+                                    <input type="hidden" name="cmd" value="_cart" />
+                                    <input type="hidden" name="display" value="1" />
+                                    <button class="w3view-cart" type="submit" name="submit" value=""><span class="kart"><ion-icon name="cart"></ion-icon></span>
+                                    </button>
+                              </form>
+                        </div>
+                        
+                  </div>
+                  <div class="menu">
+                        <div class="menu-close">
+                              <ion-icon name="close"></ion-icon>
+                        </div>
+                        <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="shop.html">collection</a></li>
+                              <li><a href="product.html">Product</a></li>
+                              <li><a href="about.html">Our story</a></li>
+                              <li><a href="team.html">Team</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="media-menu">
+                              <ul>
+                                    <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                    <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                    <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- NAVIGATION ENDS -->
+
+
+<!-- cart's-Product-Display -->
+<div class="about-hero">
+                  <div class="container-fluid hero wow fadeInUp">
+                         <h1 id="hero-title" style="font-size: 40px">Our Products</h1>
+                  </div>
+
+                  <div class="whitespace"></div>
+                        
+                        <div class="wthreeproductdisplay">
+                                    <div class="container">
+<!--************************************************************first row************************************************************-->
+                                          <div class="top-grid">
+                                                <div class="cart-grid" id="cart-1">
+                                                      <div class="img">
+                                                            <img src="images/product/t1.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 399.00</li>
+                                                            <li class="description">Brown teddy bear</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="399.00">
+                                                                  <input type="hidden" name="item_name" value="Brown teddy" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-1">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-2">
+                                                      <div class="img">
+                                                            <img src="images/product/t2.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 599.00</li>
+                                                            <li class="description">Cream teddy bear</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="599.00">
+                                                                  <input type="hidden" name="item_name" value="Cream teddy" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-3">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-3">
+                                                      <div class="img">
+                                                            <img src="images/product/t3.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 499.00</li>
+                                                            <li class="description">Orange teddy bear</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="499.00">
+                                                                  <input type="hidden" name="item_name" value="Orange teddy" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-3">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-4">
+                                                      <div class="img">
+                                                            <img src="images/product/t5.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 300.00</li>
+                                                            <li class="description">Cute Pink teddy bear</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="300.00">
+                                                                  <input type="hidden" name="item_name" value="Pink teddy" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-4">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+
+                                                <div class="clear"></div>
+                                          </div>
+<!--************************************************************second row************************************************************-->
+                                          <div class="bot-grid">
+                                                <div class="cart-grid" id="cart-5">
+                                                      <div class="img">
+                                                            <img src="images/product/g1.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 60.00</li>
+                                                            <li class="description">Happy Easter Card</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="60.00">
+                                                                  <input type="hidden" name="item_name" value="Happy Easter" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-5">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-6">
+                                                      <div class="img">
+                                                            <img src="images/product/g2.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 60.00</li>
+                                                            <li class="description">Thank You Greeting Card</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="60.00">
+                                                                  <input type="hidden" name="item_name" value="Thank You" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-6">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-7">
+                                                      <div class="img">
+                                                            <img src="images/product/g3.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 60.00</li>
+                                                            <li class="description">Happy Women's Day Card</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="60.00">
+                                                                  <input type="hidden" name="item_name" value="Women's Day" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-7">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-8">
+                                                      <div class="img">
+                                                            <img src="images/product/g4.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 60.00</li>
+                                                            <li class="description">Happy Birthday Card</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="60.00">
+                                                                  <input type="hidden" name="item_name" value="Happy Birthday" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-8">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                          </div>
+<!--************************************************************Third row************************************************************-->
+                                          <div class="top-grid">
+                                                <div class="cart-grid" id="cart-1">
+                                                      <div class="img">
+                                                            <img src="images/product/f1.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 699.00</li>
+                                                            <li class="description">Colorful Gerbera Daisies</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="699.00">
+                                                                  <input type="hidden" name="item_name" value="Gerbera Daisies" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-1">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-2">
+                                                      <div class="img">
+                                                            <img src="images/product/f2.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 599.00</li>
+                                                            <li class="description">Sunflower Radiance</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="599.00">
+                                                                  <input type="hidden" name="item_name" value="Sunflower Radiance" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-3">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-3">
+                                                      <div class="img">
+                                                            <img src="images/product/f4.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 700.00</li>
+                                                            <li class="description">Smiles & Sunshine</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="700.00">
+                                                                  <input type="hidden" name="item_name" value="Smiles & Sunshine" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-3">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-4">
+                                                      <div class="img">
+                                                            <img src="images/product/f5.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 720.00</li>
+                                                            <li class="description">One Dozen Yellow Roses</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="720.00">
+                                                                  <input type="hidden" name="item_name" value="Yellow Roses" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-4">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+
+                                                <div class="clear"></div>
+                                          </div>
+<!--************************************************************fourth row************************************************************-->
+                                          <div class="bot-grid">
+                                                <div class="cart-grid" id="cart-5">
+                                                      <div class="img">
+                                                            <img src="images/product/c1.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 399.00</li>
+                                                            <li class="description">Happy Birthday Cakes</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="399.00">
+                                                                  <input type="hidden" name="item_name" value="Birthday Cakes" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-5">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-6">
+                                                      <div class="img">
+                                                            <img src="images/product/c2.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 590.00</li>
+                                                            <li class="description">Special Occasions Cake</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="590.00">
+                                                                  <input type="hidden" name="item_name" value="Occasions Cake" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-6">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-7">
+                                                      <div class="img">
+                                                            <img src="images/product/c3.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 100.00</li>
+                                                            <li class="description">Vanilla Bean Cupcakes</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="100.00">
+                                                                  <input type="hidden" name="item_name" value="Bean Cupcakes" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-7">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                                <div class="cart-grid" id="cart-8">
+                                                      <div class="img">
+                                                            <img src="images/product/c7.jpg" alt="img">
+                                                      </div>
+                                                      <ul class="info">
+                                                            <li class="rate" style="color: #0080FF">RS 190.00</li>
+                                                            <li class="description">Chocolate Raspberry Cake</li>
+                                                      </ul>
+                                                      <div class="snipcart-details ">
+                                                            <form action="#" method="post">
+                                                                  <input type="hidden" name="cmd" value="_cart">
+                                                                  <input type="hidden" name="add" value="1">
+                                                                  <input type="hidden" name="w3l_item" value="Striped Top ">
+                                                                  <input type="hidden" name="amount" value="190.00">
+                                                                  <input type="hidden" name="item_name" value="Raspberry Cake" />
+                                                                  <button type="submit" class="button w3l-cart" data-id="cart-8">add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                </div>
+                                    </div>
+                              </div>            
+                        <!-- //cart's-Product-Display -->
+                             
+
+                        </div>
+
+                  </div>
+            </div>
+
+            </div>
+
+            <script type="text/javascript">
+
+            //Scroll reveal animations
+
+            new WOW().init();
+
+            //Scroll activated background change
+            $(function() {
+                  $(document).scroll(function() {
+                        var $nav = $(".nav");
+                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                  });
+            });
+
+            //Toggle MENU
+
+            var t1 = new TimelineMax({paused: true});
+            t1.to(".menu", 0.5, {
+                  left: "0%",
+                  ease: Power2.easeInOut
+            });
+
+            t1.reverse();
+            $(document).on("click", ".menu-open", function() {
+                  t1.reversed(!t1.reversed());
+            });
+            $(document).on("click", ".menu-close", function() {
+                  t1.reversed(!t1.reversed());
+            });
+
+            </script>
+
+
+       <!-- Default-JavaScript -->
+      <script src="products/js/jquery-2.2.3.js"></script>
+      <!-- Custom-JavaScript-File-Links -->
+
+      <!-- cart-js -->
+      <script src="products/js/minicart.min.js"></script>
+      <script>
+            // Mini Cart
+            paypal1.minicart1.render({ //use only unique class names other than paypal1.minicart1.Also Replace same class name in css and minicart.min.js
+                  action: '#'
+            });
+
+            if (~window.location.search.indexOf('reset=true')) {
+                  paypal1.minicart1.reset();
+            }
+      </script>
+      <!-- //cart-js -->
+
+            <!-- DATA SECTION ENDS -->
+</body>
+</html>
