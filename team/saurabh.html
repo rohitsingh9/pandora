@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>saurabh - profile</title>
+        <meta charset="UTF-8">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+            .yes{
+                text-decoration: none;
+                color: #4682B4;
+                padding-left: 7px;
+            }
+            .no{
+                text-decoration: none;
+                color: #4682B4;
+                padding-left: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- the termynal container -->
+        <div id="termynal" data-termynal>
+            <span data-ty="input">pip install profile</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Successfully installed profile</span>
+            <span data-ty></span>
+            <span data-ty="input">python -m saurabh download about</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Installed model 'about'</span>
+            <span data-ty></span>
+            <span data-ty="input">saurabh &#x1F61C;</span>
+            <span data-ty="input" data-ty-prompt=">>>">UI Designer</span>
+            <span data-ty="input" data-ty-prompt=">>>">contribution = 'toys_page'</span>
+            <span data-ty="input" data-ty-prompt=">>>">likes = 'adventure','historical_places'</span>
+            <span data-ty="input" data-ty-prompt=">>>">do you want to go back</span>
+            <span data-ty><a class="yes" href="https://pandora-gift.netlify.com/team.html">yes  &emsp;</a><a class="no" href="#">no</a></span>
+        </div>
+
+        <!-- include and initialise termynal.js -->
+        <script src="termynal.js" data-termynal-container="#termynal"></script>
+    </body>
+</html>
