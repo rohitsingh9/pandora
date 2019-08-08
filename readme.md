@@ -1,88 +1,15 @@
-# Project Title
+# Pandora
 
-One Paragraph of project description goes here
+Pandora is gifting website that helps you in finding the right choice for your loved ones but also takes care of your budget.
 
-## Getting Started
+## Visit the site
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+https://pandora-gift.netlify.com
 
-### Prerequisites
+## About 
 
-What things you need to install the software and how to install them
+Create blissful memories with unique online gifts, Life is full of varied experiences and experiences count. They help us stride through tough times and make our lives meaningful. Picking a perfect gift is an art . Making the right gift selection takes planning research and personal attention. PANDORA gives you 100% commitment for providing you the best facility, no matter what it takes to get there. Everybody knows the feeling when the occasions and festivals are right around the corner and you still do not know what to buy for your nearest and dearest. What do people do when they feel stressed in 21st century? They Go online!
 
-```
-Give examples
-```
+You need to take into consideration the recipents likes and dislikes , their personality and preferences. Also the gift needs to be thoughtful and user friendly at the same time . When choosing a gift for someone special you need to put in that extra effort to ensure a “wow” moment for the receiver when the wrapping comes off. This is the main reason why we have created this affordable online market PANDORA. Our site not only helps you in finding the right choice for your loved ones but also takes care of your budget. We are small, tight-knit team focused on making PANDORA easy and affordable for customers.
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+Ever wondered what it would be like to have creative and unique gifts delivered to you right in front of your computer screens? Shop online for an ocean of gifts to give your friends and family on their special days with us. We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
